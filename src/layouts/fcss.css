@@ -1,0 +1,203 @@
+.t-serif {
+  font-family: 'Noto Serif', serif;
+}
+
+.t-sans {
+  font-family: 'Roboto', sans-serif;
+}
+
+.t-logo {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.t-italic {
+  font-style: italic;
+}
+
+
+.t-caps {
+  text-transform: capitalize;
+}
+
+.t-upper {
+  text-transform: uppercase;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.t-right {
+  text-align: right;
+}
+
+.td-none {
+  text-decoration: none;
+}
+
+.ls-1 {
+  letter-spacing: 1px;
+}
+
+.ls-2 {
+  letter-spacing: 2px;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+.fw-900 {
+  font-weight: 900;
+}
+
+.f-11 {
+  font-size: 11px;
+}
+
+.f-13 {
+  font-size: 13px;
+}
+
+.f-14 {
+  font-size: 14px;
+}
+
+.f-16 {
+  font-size: 16px;
+}
+
+.f-18 {
+  font-size: 18px;
+}
+
+.f-22 {
+  font-size: 22px;
+}
+
+.f-28 {
+  font-size: 28px;
+}
+
+.f-32 {
+  font-size: 32px;
+}
+
+.f-38 {
+  font-size: 38px;
+}
+
+.m-r-6 {
+  margin-right: 6px;
+}
+
+.m-r-12 {
+  margin-right: 12px;
+}
+
+.m-t-22 {
+  margin-top: 22px;
+}
+.m-b-22 {
+  margin-bottom: 22px;
+}
+
+.m-b-48 {
+  margin-bottom: 48px;
+}
+
+.m-t-48 {
+  margin-top: 48px;
+}
+
+.ph-12 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.ph-30 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.fx-c-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ht-80p {
+  height: 80px;
+}
+
+.fc--black {
+  color: #000000;
+}
+
+.fc--grey {
+  color: #cccccc;
+}
+
+.fc--white {
+  color: #FFFFFF;
+}
+
+.fc--pink {
+  color: #ff2986;
+}
+
+.fc--blue {
+  color: #5000ff;
+}
+
+.bg--black {
+  background-color: #000000;
+}
+
+.bg--blight-blue {
+  background-color: #423DEC;
+}
+
+
+
+.bg--white {
+  background-color: #FFFFFF;
+}
+
+.bg--grey {
+  background-color: #F5F5F5;
+}
+
+.m-w-800 {
+  max-width: 800px;
+}
+
+.mlra {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.m-w-600 {
+  max-width: 600px;
+}
+
+.m-w-400 {
+  max-width: 400px;
+}
+
+.o-1 {
+  opacity: 0.1;
+}
+
+@media (max-width: 799px) {
+  .f-24-sm {
+    font-size: 24px;
+  }
+  .f-13-sm {
+    font-size: 13px;
+  }
+}
