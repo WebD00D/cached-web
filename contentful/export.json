@@ -268,29 +268,8 @@
                     "validations": [],
                     "disabled": false,
                     "omitted": false
-                },
-                {
-                    "id": "tags",
-                    "name": "Tags",
-                    "type": "Array",
-                    "localized": false,
-                    "required": false,
-                    "validations": [],
-                    "disabled": false,
-                    "omitted": false,
-                    "items": {
-                        "type": "Symbol",
-                        "validations": [
-                            {
-                                "in": [
-                                    "general",
-                                    "javascript",
-                                    "static-sites"
-                                ]
-                            }
-                        ]
-                    }
                 }
+               
             ]
         }
     ],
@@ -407,11 +386,8 @@
                         "format": "timeZ",
                         "ampm": "24"
                     }
-                },
-                {
-                    "fieldId": "tags",
-                    "widgetId": "tagEditor"
                 }
+                
             ],
             "sys": {
                 "id": "default",
@@ -617,12 +593,8 @@
                 },
                 "publishDate": {
                     "en-US": "2017-05-12T00:00+02:00"
-                },
-                "tags": {
-                    "en-US": [
-                        "javascript"
-                    ]
                 }
+                
             }
         },
         {
@@ -705,12 +677,8 @@
                 },
                 "publishDate": {
                     "en-US": "2017-05-15T00:00+02:00"
-                },
-                "tags": {
-                    "en-US": [
-                        "general"
-                    ]
                 }
+                
             }
         },
         {
@@ -793,13 +761,8 @@
                 },
                 "publishDate": {
                     "en-US": "2017-05-16T00:00+02:00"
-                },
-                "tags": {
-                    "en-US": [
-                        "javascript",
-                        "static-sites"
-                    ]
                 }
+                
             }
         }
     ],

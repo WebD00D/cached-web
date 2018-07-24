@@ -1,20 +1,7 @@
-let contentfulConfig
 
-try {
-  contentfulConfig = require('./.contentful')
-} catch (_) {
-  contentfulConfig = {
-    spaceId: process.env.CONTENTFUL_SPACE_ID,
-    accessToken: process.env.CONTENTFUL_DELIVERY_TOKEN,
-  }
-} finally {
-  const { spaceId, accessToken } = contentfulConfig
-
-  if (!spaceId || !accessToken) {
-    throw new Error(
-      'Contentful spaceId and the delivery token need to be provided.'
-    )
-  }
+let contentfulConfig = {
+  spaceId: "r3moe64j590r",
+  accessToken: "000da8f0d2d76ed9432d04154da29d7d90170141dc2c6abc8ee7bbfc37887b25"
 }
 
 module.exports = {

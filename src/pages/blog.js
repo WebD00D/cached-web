@@ -41,7 +41,7 @@ export const pageQuery = graphql`
           title
           slug
           publishDate(formatString: "MMMM Do, YYYY")
-          tags
+          
           heroImage {
             file {
               url

@@ -45,7 +45,6 @@ class Template extends React.Component {
             <Link to="/" className="header__nav--active m-r-12">
               Articles
             </Link>
-            <Link to="/" className="header__nav--active m-r-12">About</Link>
             <Link to="/contribute" className="header__nav--active ">Contribute</Link>
           </div>
         </div>

@@ -57,8 +57,7 @@ export const pageQuery = graphql`
           id
           title
           slug
-          publishDate(formatString: "MMMM Do, YYYY")
-          tags
+          publishDate(formatString: "MMMM Do, YYYY")      
           contentType
           heroImage {
             file {
