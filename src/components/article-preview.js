@@ -7,7 +7,6 @@ class ArticlePreview extends React.Component {
   }
 
   render() {
-    let parentSlug = this.props.article.contentType.toLowerCase()
 
     return (
       <Link to={`/${this.props.article.slug}`} className="article-preview">
