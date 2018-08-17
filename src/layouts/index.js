@@ -26,11 +26,10 @@ class Template extends React.Component {
       <div>
         <div className="top-bar">
             <div className="top-bar__container">
-              <div><a href="#" className="m-r-12"><i className="fa fa-instagram fc--white f-14"></i></a>
-              <a href="#" className="m-r-12"><i className="fa fa-twitter fc--white f-14"></i></a>
-              <a href="#" className="m-r-12"><i className="fa fa-facebook fc--white f-14"></i></a>
+              <div><a href="https://www.instagram.com/my.friend.christian/" className="m-r-12"><i className="fa fa-instagram fc--white f-14"></i></a>
+
               </div>
-              <a className="t-sans fc--white f-14 td-none" href="#"><b>Subscribe</b> to Cached</a>
+              <a className="t-sans fc--white f-14 td-none" href="https://mailchi.mp/76c6c6ddc318/cached"><b>Subscribe</b> to Cached</a>
             </div>
         </div>
         <div className="header__nav">

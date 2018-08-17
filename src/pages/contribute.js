@@ -72,7 +72,7 @@ class Contribute extends React.Component {
           <p className="t-serif">
             <ol>
               <li>
-                Submit a proposed story outline to editorial@cachedmag.com{' '}
+                Submit a proposed story outline to rva.christian91@gmail.com{' '}
               </li>
 
               <li>
